@@ -1,2 +1,4 @@
 .env
+cancelled-trip-times-data.json
+__pycache__/
 venv/
