@@ -1,4 +1,5 @@
 import requests
+import json
 import os
 from dotenv import load_dotenv
 
@@ -44,18 +45,18 @@ class Cancelled_times_query:
     response = requests.post(url=self.url, headers = self.hdr, json={"query": self.body})
     print("response status code: ", response.status_code)
     if response.status_code == 200:
-        file = open('cancelled-trip-times-data.json', 'w')
-        file.write(str(response.content))
-        file.close()
-        print("response : ", response.content)
+        print(response.content)
+        parsed_response = json.loads(response.content)
+        print("response : ", json.dumps(parsed_response, indent = 4))
   
   def write(self):
      
     response = requests.post(url=self.url, headers = self.hdr, json={"query": self.body})
     print("response status code: ", response.status_code)
     if response.status_code == 200:
+      parsed_response = json.loads(response.content)
       file = open('cancelled-trip-times-data.json', 'w')
-      file.write(str(response.content))
+      file.write(json.dumps(parsed_response, indent = 4))
       file.close()
       print("data succesfully written to cancelled-trip-times-data.json")
 
