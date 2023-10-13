@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+from datetime import date
 from dotenv import load_dotenv
 
 class Cancelled_times_query:
@@ -45,7 +46,6 @@ class Cancelled_times_query:
     response = requests.post(url=self.url, headers = self.hdr, json={"query": self.body})
     print("response status code: ", response.status_code)
     if response.status_code == 200:
-        print(response.content)
         parsed_response = json.loads(response.content)
         print("response : ", json.dumps(parsed_response, indent = 4))
   
@@ -55,10 +55,13 @@ class Cancelled_times_query:
     print("response status code: ", response.status_code)
     if response.status_code == 200:
       parsed_response = json.loads(response.content)
-      file = open('cancelled-trip-times-data.json', 'w')
+      today=date.today()
+      current_date = today.strftime("%d.%m.%Y")
+      name = (current_date + ' cancelled-trip-times-data')
+      file = open('%s.json' % name, 'w')
       file.write(json.dumps(parsed_response, indent = 4))
       file.close()
-      print("data succesfully written to cancelled-trip-times-data.json")
+      print("data succesfully written to " + name)
 
   
   
