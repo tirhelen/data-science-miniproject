@@ -1,0 +1,106 @@
+{
+    "data": {
+        "cancelledTripTimes": [
+            {
+                "scheduledDeparture": 29280,
+                "serviceDay": 1697230800,
+                "trip": {
+                    "gtfsId": "HSL:1064_20231013_La_1_0808",
+                    "tripHeadsign": "It\u00e4-Pakila",
+                    "routeShortName": "64",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:1064:0:01",
+                        "name": "64 to Lukupolku (HSL:1353117)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1064",
+                        "longName": "Rautatientori-Oulunkyl\u00e4-It\u00e4-Pakila"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "It\u00e4-Pakila via Oulunkyl\u00e4"
+            },
+            {
+                "scheduledDeparture": 33000,
+                "serviceDay": 1697230800,
+                "trip": {
+                    "gtfsId": "HSL:1061_20231013_La_2_0910",
+                    "tripHeadsign": "Rautatientori",
+                    "routeShortName": "61",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1061:1:01",
+                        "name": "61 to Rautatientori (HSL:1020201)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1061",
+                        "longName": "Rautatientori-Pukinm\u00e4ki-Tapaninkyl\u00e4"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Rautatientori via Pukinm\u00e4ki as."
+            },
+            {
+                "scheduledDeparture": 35700,
+                "serviceDay": 1697230800,
+                "trip": {
+                    "gtfsId": "HSL:1506_20231013_La_2_0955",
+                    "tripHeadsign": "Myllypuro (M)",
+                    "routeShortName": "506",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1506:1:01",
+                        "name": "506 to Myllypuro (M) (HSL:1454141)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1506",
+                        "longName": "Myllypuro(M)-Viikki-Kumpula-Pasila-Ruskeasuo"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Myllypuro(M) via Pasila as."
+            },
+            {
+                "scheduledDeparture": 56280,
+                "serviceDay": 1697230800,
+                "trip": {
+                    "gtfsId": "HSL:2162_20231013_La_1_1538",
+                    "tripHeadsign": "Kauklahti",
+                    "routeShortName": "162",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:2162:0:02",
+                        "name": "162 to Valhalla (HSL:2511251) from Espoonlahti (M) (HSL:2411215) express"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2162",
+                        "longName": "Espoonlahti (M)-Kivenlahti (M)-Saunalahti-Kauklahti"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Valhalla via Kauklahti"
+            },
+            {
+                "scheduledDeparture": 61620,
+                "serviceDay": 1697230800,
+                "trip": {
+                    "gtfsId": "HSL:2531_20231013_La_1_1707",
+                    "tripHeadsign": "Espoon asema",
+                    "routeShortName": "531",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:2531:0:01",
+                        "name": "531 to Espoon asema (HSL:2611249)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2531",
+                        "longName": "Tiistil\u00e4-Matinkyl\u00e4 (M)-Olari-Espoon keskus"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Espoon keskus via Matinkyl\u00e4 (M)"
+            }
+        ]
+    }
+}
