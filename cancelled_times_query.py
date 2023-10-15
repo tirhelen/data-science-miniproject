@@ -48,6 +48,8 @@ class Cancelled_times_query:
     if response.status_code == 200:
         parsed_response = json.loads(response.content)
         print("response : ", json.dumps(parsed_response, indent = 4))
+    else:
+      print("There was a problem retrieving the data, do you have an active API key in a .env file?")
   
   def write(self):
      
@@ -63,7 +65,7 @@ class Cancelled_times_query:
       file = open('%s.json' % path, 'w')
       file.write(json.dumps(parsed_response, indent = 4))
       file.close()
-      print("data succesfully written to " + filename + ' in the data folder')
+      print("data succesfully written to " + filename + '.json in the data folder')
 
   
   
