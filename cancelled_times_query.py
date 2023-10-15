@@ -57,11 +57,13 @@ class Cancelled_times_query:
       parsed_response = json.loads(response.content)
       today=date.today()
       current_date = today.strftime("%d.%m.%Y")
-      name = (current_date + ' cancelled-trip-times-data')
-      file = open('%s.json' % name, 'w')
+      
+      filename = (current_date + ' cancelled-trip-times-data')
+      path = os.getcwd()+"\\data\\"+filename
+      file = open('%s.json' % path, 'w')
       file.write(json.dumps(parsed_response, indent = 4))
       file.close()
-      print("data succesfully written to " + name)
+      print("data succesfully written to " + filename + ' in the data folder')
 
   
   
