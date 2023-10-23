@@ -6,8 +6,8 @@ class Data_assembler:
 
   def assemble_data(self):
     df = pd.DataFrame()
-    for filename in os.listdir(os.getcwd()+('//data')):
-      with open(os.path.join(os.getcwd()+('//data'), filename), 'r') as f: 
+    for filename in os.listdir(os.getcwd()+('\\data\\cancelled_route_data')):
+      with open(os.path.join(os.getcwd()+('\\data\\cancelled_route_data\\'), filename), 'r') as f: 
         content = f.read()
         parsed_content = json.loads(content)
         data_list = parsed_content['data']['cancelledTripTimes']
@@ -25,3 +25,6 @@ class Data_assembler:
                   ], axis = 1)
 
     return(df)
+  
+  def write_to_csv(self):
+    self.assemble_data().to_csv('data.csv')

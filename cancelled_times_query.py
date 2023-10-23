@@ -61,7 +61,7 @@ class Cancelled_times_query:
       current_date = today.strftime("%d.%m.%Y")
       
       filename = (current_date + ' cancelled-trip-times-data')
-      path = os.getcwd()+"\\data\\"+filename
+      path = os.getcwd()+"\\data\\cancelled_route_data\\"+filename
       file = open('%s.json' % path, 'w')
       file.write(json.dumps(parsed_response, indent = 4))
       file.close()

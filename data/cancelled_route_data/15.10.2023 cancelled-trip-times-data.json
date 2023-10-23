@@ -1,0 +1,126 @@
+{
+    "data": {
+        "cancelledTripTimes": [
+            {
+                "scheduledDeparture": 41580,
+                "serviceDay": 1697317200,
+                "trip": {
+                    "gtfsId": "HSL:4300_20231013_Su_1_1133",
+                    "tripHeadsign": "Myyrm\u00e4ki",
+                    "routeShortName": "300",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:4300:0:01",
+                        "name": "300 to Myyrm\u00e4en asema (HSL:4150205)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:4300",
+                        "longName": "Elielinaukio-Myyrm\u00e4ki"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Myyrm\u00e4ki via P\u00e4hkin\u00e4rinne"
+            },
+            {
+                "scheduledDeparture": 51060,
+                "serviceDay": 1697317200,
+                "trip": {
+                    "gtfsId": "HSL:1040_20231013_Su_1_1411",
+                    "tripHeadsign": "Kannelm\u00e4ki",
+                    "routeShortName": "40",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:1040:0:01",
+                        "name": "40 to Pelimannintie 23 (HSL:1294201)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1040",
+                        "longName": "Elielinaukio-Haaga-Kannelm\u00e4ki"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kannelm\u00e4ki"
+            },
+            {
+                "scheduledDeparture": 57360,
+                "serviceDay": 1697317200,
+                "trip": {
+                    "gtfsId": "HSL:2114_20231013_Su_1_1556",
+                    "tripHeadsign": "Lepp\u00e4vaara",
+                    "routeShortName": "114",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:2114:0:01",
+                        "name": "114 to Lepp\u00e4vaaran asema (HSL:2111234)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2114",
+                        "longName": "Matinkyl\u00e4 (M)-Urheilupuisto (M)-Mankkaa-Kilo-Lepp\u00e4vaara"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Lepp\u00e4vaara via Niittykumpu (M)"
+            },
+            {
+                "scheduledDeparture": 57420,
+                "serviceDay": 1697317200,
+                "trip": {
+                    "gtfsId": "HSL:1052_20231013_Su_2_1557",
+                    "tripHeadsign": "Kuninkaantammi",
+                    "routeShortName": "52",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1052:1:01",
+                        "name": "52 to Taidemaalarinkatu (HSL:1334192)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1052",
+                        "longName": "Kuninkaantammi-Kannelm\u00e4ki-Huopalahti-Munkkivuori-Otaniemi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kuninkaantammi via Aalto-yliop. (M)"
+            },
+            {
+                "scheduledDeparture": 60480,
+                "serviceDay": 1697317200,
+                "trip": {
+                    "gtfsId": "HSL:1052_20231013_Su_1_1648",
+                    "tripHeadsign": "Otaniemi",
+                    "routeShortName": "52",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:1052:0:01",
+                        "name": "52 to Tietotie (HSL:2222223)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1052",
+                        "longName": "Kuninkaantammi-Kannelm\u00e4ki-Huopalahti-Munkkivuori-Otaniemi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Otaniemi via Kannelm\u00e4ki as."
+            },
+            {
+                "scheduledDeparture": 63720,
+                "serviceDay": 1697317200,
+                "trip": {
+                    "gtfsId": "HSL:1089_20231013_Su_1_1742",
+                    "tripHeadsign": "Yliskyl\u00e4",
+                    "routeShortName": "89",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:1089:0:01",
+                        "name": "89 to Laajasalon kirkko (HSL:1491170)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1089",
+                        "longName": "Herttoniemi (M)-Yliskyl\u00e4"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Yliskyl\u00e4"
+            }
+        ]
+    }
+}

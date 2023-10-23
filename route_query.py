@@ -31,11 +31,11 @@ class Routes_query:
         'digitransit-subscription-key': DIGITRANSIT_SUBSCRIPTION_KEY,
         }
         self.body = '''
-    {
+        {
         routes {
         shortName
-    }
-    }
+            }
+        }
         '''
 
     def create_routes_file(self):

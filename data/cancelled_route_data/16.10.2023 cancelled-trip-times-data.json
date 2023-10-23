@@ -1,0 +1,406 @@
+{
+    "data": {
+        "cancelledTripTimes": [
+            {
+                "scheduledDeparture": 23580,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:2227_20231013_Ma_1_0633",
+                    "tripHeadsign": "Jorvi",
+                    "routeShortName": "227",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:2227:0:01",
+                        "name": "227 to Jorvin sairaala (HSL:2631269)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2227",
+                        "longName": "Lepp\u00e4vaara-Lippaj\u00e4rvi-Jorvi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Jorvi"
+            },
+            {
+                "scheduledDeparture": 24660,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1061_20231013_Ma_2_0651",
+                    "tripHeadsign": "Rautatientori",
+                    "routeShortName": "61",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1061:1:01",
+                        "name": "61 to Rautatientori (HSL:1020201)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1061",
+                        "longName": "Rautatientori-Pukinm\u00e4ki-Tapaninkyl\u00e4"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Rautatientori via Pukinm\u00e4ki as."
+            },
+            {
+                "scheduledDeparture": 25440,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:2227_20231013_Ma_2_0704",
+                    "tripHeadsign": "Lepp\u00e4vaara as.",
+                    "routeShortName": "227",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:2227:1:01",
+                        "name": "227 to Lepp\u00e4vaaran asema (HSL:2111234)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2227",
+                        "longName": "Lepp\u00e4vaara-Lippaj\u00e4rvi-Jorvi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Lepp\u00e4vaara as."
+            },
+            {
+                "scheduledDeparture": 26100,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1042_20231013_Ma_1_0715",
+                    "tripHeadsign": "Kannelm\u00e4ki as.",
+                    "routeShortName": "42",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:1042:0:01",
+                        "name": "42 to Kannelm\u00e4en asema (HSL:1331156)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1042",
+                        "longName": "Kamppi-Maununneva-Kannelm\u00e4ki"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kannelm\u00e4ki as."
+            },
+            {
+                "scheduledDeparture": 27300,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:2548_20231013_Ma_1_0735",
+                    "tripHeadsign": "Jupperi",
+                    "routeShortName": "548",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:2548:0:01",
+                        "name": "548 to Jupperi (HSL:2143201)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2548",
+                        "longName": "Tapiola (M)-Mankkaa-Kauniainen-Viherlaakso-Jupperi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Jupperi via Kauniainen"
+            },
+            {
+                "scheduledDeparture": 27840,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:2510_20231013_Ma_2_0744",
+                    "tripHeadsign": "Herttoniemi (M)",
+                    "routeShortName": "510",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:2510:1:01",
+                        "name": "510 to Herttoniemi (M) (HSL:1431103)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2510",
+                        "longName": "Herttoniemi (M)-Pasila-Tapiola(M)-Espoonl.(M)-Kivenlahti (M)"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Herttoniemi (M) via Espoonlahti"
+            },
+            {
+                "scheduledDeparture": 40200,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1069_20231013_Ma_2_1110",
+                    "tripHeadsign": "Kamppi",
+                    "routeShortName": "69",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1069:1:01",
+                        "name": "69 to Kamppi (HSL:1040284)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1069",
+                        "longName": "Kamppi-Pasila-K\u00e4pyl\u00e4-Malmi-Jakom\u00e4ki"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kamppi via Malmi as."
+            },
+            {
+                "scheduledDeparture": 46200,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:4400_20231013_Ma_2_1250",
+                    "tripHeadsign": "Kamppi",
+                    "routeShortName": "400",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:4400:1:01",
+                        "name": "400 to Kamppi (HSL:1040284)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:4400",
+                        "longName": "Kamppi-Martinlaakso-Vantaankoski"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kamppi via Martinlaakso as."
+            },
+            {
+                "scheduledDeparture": 47280,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1081_20231013_Ma_2_1308",
+                    "tripHeadsign": "Kulosaari",
+                    "routeShortName": "81",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1081:1:01",
+                        "name": "81 to Kulosaari (M) (HSL:1420123)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1081",
+                        "longName": "Kulosaari-Herttoniemi(M)-L\u00e4nsi-Herttoniemi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kulosaari via Herttoniemi(M)"
+            },
+            {
+                "scheduledDeparture": 49980,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:4522_20231013_Ma_1_1353",
+                    "tripHeadsign": "Vantaankoski",
+                    "routeShortName": "522",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:4522:0:01",
+                        "name": "522 to Vantaankosken asema (HSL:4170240)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:4522",
+                        "longName": "Lepp\u00e4vaara - P\u00e4hkin\u00e4rinne - Vantaankoski"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Vantaankoski via Lintuvaara"
+            },
+            {
+                "scheduledDeparture": 51000,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1069_20231013_Ma_2_1410",
+                    "tripHeadsign": "Kamppi",
+                    "routeShortName": "69",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1069:1:01",
+                        "name": "69 to Kamppi (HSL:1040284)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1069",
+                        "longName": "Kamppi-Pasila-K\u00e4pyl\u00e4-Malmi-Jakom\u00e4ki"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kamppi via Malmi as."
+            },
+            {
+                "scheduledDeparture": 53340,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1071_20231013_Ma_2_1449",
+                    "tripHeadsign": "Rautatientori",
+                    "routeShortName": "71",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1071:1:01",
+                        "name": "71 to Rautatientori (HSL:1020201)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1071",
+                        "longName": "Rautatientori-Pihlajisto-Pihlajam\u00e4ki-Malmi"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Rautatientori via S\u00f6rn\u00e4inen(M)"
+            },
+            {
+                "scheduledDeparture": 55440,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1500_20231013_Ma_2_1524",
+                    "tripHeadsign": "It\u00e4keskus(M)",
+                    "routeShortName": "500",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1500:1:01",
+                        "name": "500 to It\u00e4keskus (M) (HSL:1453114)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1500",
+                        "longName": "It\u00e4keskus(M)-Pasila-Munkkivuori"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "It\u00e4keskus(M) via Pasila as."
+            },
+            {
+                "scheduledDeparture": 55560,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1506_20231016_Ma_2_1526",
+                    "tripHeadsign": "Myllypuro (M)",
+                    "routeShortName": "506",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1506:1:01",
+                        "name": "506 to Myllypuro (M) (HSL:1454141)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1506",
+                        "longName": "Myllypuro(M)-Viikki-Kumpula-Pasila-Ruskeasuo"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Myllypuro(M) via Pasila as."
+            },
+            {
+                "scheduledDeparture": 57120,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:4522_20231013_Ma_2_1552",
+                    "tripHeadsign": "Lepp\u00e4vaara",
+                    "routeShortName": "522",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:4522:1:01",
+                        "name": "522 to Lepp\u00e4vaaran asema (HSL:2112261)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:4522",
+                        "longName": "Lepp\u00e4vaara - P\u00e4hkin\u00e4rinne - Vantaankoski"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Lepp\u00e4vaara via P\u00e4hkin\u00e4rinne"
+            },
+            {
+                "scheduledDeparture": 57720,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1009_20231013_Ma_2_1602",
+                    "tripHeadsign": "L\u00e4nsiterminaali",
+                    "routeShortName": "9",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1009:1:02",
+                        "name": "9 to L\u00e4nsiterm. T2 (HSL:1203418) from Ilmalantori (HSL:1171402)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1009",
+                        "longName": "L\u00e4nsiterminaali - Rautatieas. - Kallio - Pasila as. - Ilmala"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "L\u00e4nsiterm. via Pasila as."
+            },
+            {
+                "scheduledDeparture": 61320,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:2553_20231013_Ma_1_1702",
+                    "tripHeadsign": "Lepp\u00e4vaara as.",
+                    "routeShortName": "553",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:2553:0:01",
+                        "name": "553 to Lepp\u00e4vaaran asema (HSL:2111231)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:2553",
+                        "longName": "Hakunila-Malmi-Maunula-Lepp\u00e4vaara"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Lepp\u00e4vaara as. via Malmi as."
+            },
+            {
+                "scheduledDeparture": 66780,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1037_20231013_Ma_2_1833",
+                    "tripHeadsign": "Kamppi",
+                    "routeShortName": "37",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1037:1:01",
+                        "name": "37 to Kamppi (HSL:1040284)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1037",
+                        "longName": "Kamppi-Konala-Malminkartano-Honkasuo-Myyrm\u00e4ki"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Kamppi via Honkasuo"
+            },
+            {
+                "scheduledDeparture": 71340,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1005_20231013_Ma_2_1949",
+                    "tripHeadsign": "Katajanokan term.",
+                    "routeShortName": "5",
+                    "directionId": "1",
+                    "pattern": {
+                        "code": "HSL:1005:1:01",
+                        "name": "5 to Katajanokan term. (HSL:1080413) from Rautatieasema (HSL:1020453)"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1005",
+                        "longName": "Katajanokan terminaali - Rautatieasema"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Katajanokan term."
+            },
+            {
+                "scheduledDeparture": 72300,
+                "serviceDay": 1697403600,
+                "trip": {
+                    "gtfsId": "HSL:1005H4_20231013_Ma_1_2005",
+                    "tripHeadsign": "Ooppera",
+                    "routeShortName": "5H",
+                    "directionId": "0",
+                    "pattern": {
+                        "code": "HSL:1005H:0:01",
+                        "name": "5H"
+                    },
+                    "route": {
+                        "gtfsId": "HSL:1005H",
+                        "longName": "Katajanokan term. - Rautatieas. - Kamppi - T\u00f6\u00f6l\u00f6 - Ooppera"
+                    }
+                },
+                "realtimeState": "CANCELED",
+                "headsign": "Ooppera via Rautatieas."
+            }
+        ]
+    }
+}
