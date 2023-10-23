@@ -1,6 +1,7 @@
 from cancelled_times_query import Cancelled_times_query
 import sys
 import PySimpleGUI as sg
+from route_query import is_valid_route
 
 cancelled_times_query_object = Cancelled_times_query()
 layout = [  [sg.Text('Enter a route\'s short name (e.g.\"520\" to see predictions)')],
@@ -21,11 +22,12 @@ while True:
             event, values = window.read()
             if event == sg.WIN_CLOSED:
                 break
+            print(is_valid_route(values[0]))
             print('Entered value was', values[0])
     elif response == 'w':
         cancelled_times_query_object.write()
     elif response == 'p':
-            cancelled_times_query_object.print()
+        cancelled_times_query_object.print()
     elif response == 'e':
         sys.exit(0)
     else:
