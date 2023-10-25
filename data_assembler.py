@@ -1,8 +1,12 @@
 import os
 import json
 import pandas as pd
+import matplotlib.pyplot as plt
 
 class Data_assembler:
+
+  def __init__(self) -> None:
+    self.df = self.assemble_data()
 
   def assemble_data(self):
     df = pd.DataFrame()
@@ -27,4 +31,19 @@ class Data_assembler:
     return(df)
   
   def write_to_csv(self):
-    self.assemble_data().to_csv('data.csv')
+    self.df.to_csv('data.csv')
+
+  def query_route_cancelations(self, route):
+    df = self.df.loc[self.df['routeShortName'] == route]
+    df['date'] = pd.to_datetime(df['serviceDay'], unit='s')
+    df.date = df.date + pd.Timedelta('03:00:00')
+    return df
+
+  def construct_graph(self, route):
+    df = self.query_route_cancelations(route)
+    
+    df = df['date'].value_counts()
+    print(df)
+    
+    df.plot()
+    plt.show()
