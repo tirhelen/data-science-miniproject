@@ -1,15 +1,14 @@
 from cancelled_times_query import Cancelled_times_query
 from data_assembler import Data_assembler
+from gui import Gui
 import sys
-import PySimpleGUI as sg
-from route_query import is_valid_route
 
-cancelled_times_query_object = Cancelled_times_query()
-layout = [  [sg.Text('Enter a route\'s short name (e.g.\"520\" to see predictions)')],
-            [sg.InputText()],
-            [sg.Button('Do the thing')] ]
-window = sg.Window('TimelyTransit', layout)
+
+
+
 data_assembler_object = Data_assembler()
+gui_object = Gui(assembler = data_assembler_object)
+cancelled_times_query_object = Cancelled_times_query()
 
 while True:
     print('\n What do you want to do?')
@@ -21,12 +20,7 @@ while True:
     response = input()
     
     if response == 's':
-        while True:
-            event, values = window.read()
-            if event == sg.WIN_CLOSED:
-                break
-            print(is_valid_route(values[0]))
-            print('Entered value was', values[0])
+        gui_object.start_GUI()
     elif response == 'w':
         cancelled_times_query_object.write()
     elif response == 'p':
