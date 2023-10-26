@@ -33,17 +33,24 @@ class Data_assembler:
   def write_to_csv(self):
     self.df.to_csv('data.csv')
 
-  def query_route_cancelations(self, route):
-    df = self.df.loc[self.df['routeShortName'] == route]
+  def construct_graph(self, route):
+    df = self.df
     df['date'] = pd.to_datetime(df['serviceDay'], unit='s')
     df.date = df.date + pd.Timedelta('03:00:00')
-    return df
-
-  def construct_graph(self, route):
-    df = self.query_route_cancelations(route)
+    df = df.drop(['scheduledDeparture',
+                  'directionId',
+                  'tripHeadsign',
+                  'serviceDay'], axis = 1)
     
-    df = df['date'].value_counts()
-    print(df)
-    
+    dates = df['date'].unique()
+    dates_df = pd.DataFrame(dates, columns = ['date'])
+    df = df.loc[self.df['routeShortName'] == route]
+    df = df['date'].value_counts().reset_index()
+    df = pd.concat([dates_df, df])
+    df['count'] = df['count'].fillna(0)
+    df = df.drop_duplicates(subset = ['date'], keep= 'last')
+    df = df.sort_values(by = ['date'])
+    df = df.set_index('date')
     df.plot()
     plt.show()
+    
