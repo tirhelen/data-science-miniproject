@@ -6,10 +6,12 @@ authors = ["Matti Kähkönen <matti.kahkonen@helsinki.fi>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.13"
 pysimplegui = "^4.60.5"
 requests = "^2.31.0"
 python-dotenv = "^1.0.0"
+matplotlib = "^3.8.0"
+pandas = "^2.1.1"
 
 
 [build-system]
